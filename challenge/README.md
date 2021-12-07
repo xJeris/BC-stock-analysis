@@ -6,22 +6,19 @@ The goal of this analysis was to observe the impact refactoring can have on code
 
 ## Results
 
-The main change made to the code was to reduce the number of times the script needed to access the stock data. In our initial script you can see that we are accessing the year >data for each stock separately. Meaning we are gathering data 12 separate times and then aggregating it into the final results grid.
+The main change made to the code was to reduce the number of times the script needed to access the stock data. In our initial script you can see that we are accessing the year data for each stock separately. Meaning we are gathering data 12 separate times and then aggregating it into the final results grid. This resulted in overall run times of about 1 second for each run.
 
-><img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalCode.png" width="482">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalCode.png" width="482">
 
-
-This resulted in overall run times of about 1 second for each run.
-
-><img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalTimes.png" width="369">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalTimes.png" width="369">
 
 
-In the refactored code you can see that we now collect all of the stock data in a single pass of the yearly data.
+In the refactored code you can see that we now collect all of the stock data in a single pass of the yearly data. Because of this, the run times were reduced to just over a tenth of second. An improvement of about 
 
-><img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_NewCode.png" width="527">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_NewCode.png" width="527">
 
-><img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png" width="360">
-><img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2018.png" width="351">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png" width="360">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2018.png" width="351">
 
 ### Summary
 
