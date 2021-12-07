@@ -10,10 +10,14 @@ The main change made to the code was to reduce the number of times the script ne
 
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalCode.png" width="482">
 
+
 This resulted in overall run times of about 1 second for each run.
+
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalTimes.png" width="369">
 
+
 In the refactored code you can see that we now collect all of the stock data in a single pass of the yearly data.
+
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_NewCode.png" width="527">
 
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png" width="360">
