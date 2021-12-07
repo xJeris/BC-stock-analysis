@@ -26,12 +26,12 @@ In the refactored code you can see that we now collect all of the stock data in 
 
 ### Summary
 
-In summary, the refactoring of our code lead to run time improvements and easier readability. However, it could have included other benefits as well. Examples are:
+In summary, the refactoring of our code lead to run time improvements. However, it could have included other benefits as well. Examples are:
 * Functionality enhancements
 * Bug fixes
 * Improved code writing and commenting
 
-While this analysis did not see any drawbacks to the refactoring of code, they do exist. Some examples of these negative impacts are:
+While this analysis did not see any drawbacks to the refactoring of our code, they do exist. Some examples of these negative impacts are:
 * Introduction of new bugs
 * Cost prohibitive
 * Time consuming
