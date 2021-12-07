@@ -6,7 +6,9 @@ The goal of this analysis was to observe the impact refactoring can have on code
 
 ## Results
 
-### Original Time
+The main change made to the code was to reduce the number of times the script needed to access the stock data. In our initial script you can see that we are accessing the year data for each stock separately. Meaning we are gathering data 12 separate times and then aggregating it into the final results grid.
+
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalCode.png">
 
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalTimes.png">
 
