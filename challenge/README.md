@@ -13,7 +13,7 @@ The main change made to the code was to reduce the number of times the script ne
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_OrignalTimes.png" width="369">
 
 
-In the refactored code you can see that we now collect all of the stock data in a single pass of the yearly data. Because of this, the run times were reduced to just over a tenth of second. A run time speed improvement of about 84%.
+In the refactored code you can see that we now collect all of the stock data in a single pass of the yearly data. Because of this, the run times were reduced to between 1 and 2 tenths of second. A run time speed improvement of about 84%.
 
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_NewCode.png" width="527">
 
