@@ -1,12 +1,10 @@
-# VBA Code Refactoring
+# VBA Code Refactoring Analysis
 
 ## Overview of Project
 
-### Purpose
+The goal of this analysis was to observe the impact refactoring can have on code. This includes any code enhancements, as well as any negative impacts. For this analysis we started with a working VBA script that aggregated data about various stocks by year. We then refactored that code in an attempt to reduce its run time, while still providing the same output.
 
-purpose description
-
-## Analysis and Challenges
+## Results
 
 ### Original Time
 
@@ -14,16 +12,10 @@ purpose description
 
 ### Refactored Time
 
-The following graph shows what percent of campaigns were successful based on the funding amount requested. This graph groups the amount of funding requested for campaigns into broader tiers, and compares those against the outcome of the campaign to come up with the percentage of succesful, failed, or canceled in that tier.
-
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png">
 <img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2018.png">
 
-### Challenges and Difficulties Encountered
-
-
-
-## Results
+### Summary
 
 
 
