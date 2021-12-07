@@ -14,8 +14,8 @@ The main change made to the code was to reduce the number of times the script ne
 
 ### Refactored Time
 
-<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png" width="480">
-<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2018.png" width="467">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2017.png" width="360">
+<img src="https://raw.githubusercontent.com/xJeris/BC-stock-analysis/main/challenge/resources/VBA_Challenge_2018.png" width="351">
 
 ### Summary
 
